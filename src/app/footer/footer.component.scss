@@ -1,0 +1,31 @@
+.footer {
+    background-color: #302b2b;
+    color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.5s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  .powered-by {
+    font-style: italic;
+  }
+  
